@@ -1,33 +1,27 @@
 {
-    "name": "blep",
+    "name": "rock",
     "type": 1,
-    "description": "Send a random adorable animal photo",
+    "description": "Sends a picture of a rock",
     "options": [
         {
-            "name": "animal",
-            "description": "The type of animal",
+            "name": "type",
+            "description": "Type of rock",
             "type": 3,
-            "required": true,
+            "required": True,
             "choices": [
                 {
-                    "name": "Dog",
-                    "value": "animal_dog"
+                    "name": "Igneous",
+                    "value": "rock_igneous"
                 },
                 {
-                    "name": "Cat",
-                    "value": "animal_cat"
+                    "name": "Sedimentary",
+                    "value": "rock_sedimentary"
                 },
                 {
-                    "name": "Penguin",
-                    "value": "animal_penguin"
+                    "name": "Metamorphic",
+                    "value": "rock_metamorphic"
                 }
             ]
-        },
-        {
-            "name": "only_smol",
-            "description": "Whether to show only baby animals",
-            "type": 5,
-            "required": false
         }
     ]
-}
+ }
